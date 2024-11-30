@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/btnReplay"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Gameplay">
+
+    <ImageView
+        android:id="@+id/cardD1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="40dp"
+        android:contentDescription="@string/cardD1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/dealerName"
+        app:srcCompat="@drawable/card_cover" />
+
+    <ImageView
+        android:id="@+id/cardD2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="20dp"
+        android:contentDescription="@string/cardD2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/dealerName"
+        app:srcCompat="@drawable/card_container" />
+
+    <ImageView
+        android:id="@+id/cardD3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="20dp"
+        android:contentDescription="@string/cardD3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/dealerName"
+        app:srcCompat="@drawable/card_container" />
+
+    <TextView
+        android:id="@+id/dealerName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/dealerName"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/dealerCount" />
+
+    <TextView
+        android:id="@+id/dealerCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:text="@string/dealerCount"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/cardsLeftMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="40dp"
+        android:text="@string/cardsLeftMessage"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/cardsLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="80dp"
+        android:text="@string/cardsLeft"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/cardsLeftMessage" />
+
+
+    <ImageView
+        android:id="@+id/cardP1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="120dp"
+        android:contentDescription="@string/cardP1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/cardP4"
+        app:srcCompat="@drawable/card_container" />
+
+    <ImageView
+        android:id="@+id/cardP2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="20dp"
+        android:contentDescription="@string/cardP2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/cardP4"
+        app:srcCompat="@drawable/card_container" />
+
+    <ImageView
+        android:id="@+id/cardP3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="20dp"
+        android:contentDescription="@string/cardP3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/cardP4"
+        app:srcCompat="@drawable/card_container" />
+
+    <ImageView
+        android:id="@+id/cardD4"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="80dp"
+        android:contentDescription="@string/cardD4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/cardD3"
+        app:srcCompat="@drawable/card_container" />
+
+    <ImageView
+        android:id="@+id/cardD5"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="120dp"
+        android:contentDescription="@string/cardD5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/cardD2"
+        app:srcCompat="@drawable/card_container" />
+
+    <ImageView
+        android:id="@+id/cardP4"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="80dp"
+        android:contentDescription="@string/cardP4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/btnHit"
+        app:srcCompat="@drawable/card_container" />
+
+    <ImageView
+        android:id="@+id/cardP5"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="80dp"
+        android:contentDescription="@string/cardD5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/btnHit"
+        app:srcCompat="@drawable/card_container" />
+
+    <TextView
+        android:id="@+id/playerName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:text="@string/player"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/cardP1" />
+
+    <TextView
+        android:id="@+id/playerCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/playerCount"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/playerName" />
+
+    <TextView
+        android:id="@+id/playerBetMessage"
+        android:layout_width="108dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="130dp"
+        android:text="@string/playerBetMessage"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/cardD4"
+        app:srcCompat="@drawable/card_container" />
+
+    <TextView
+        android:id="@+id/playerBet"
+        android:layout_width="108dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="210dp"
+        android:layout_marginTop="130dp"
+        android:text="@string/playerBet"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/cardD4"
+        app:srcCompat="@drawable/card_container" />
+
+    <Button
+        android:id="@+id/btnHit"
+        android:layout_width="102dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="20dp"
+        android:text="@string/btnHit"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/cardD4"
+        app:srcCompat="@drawable/card_container" />
+
+    <Button
+        android:id="@+id/btnStay"
+        android:layout_width="101dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="120dp"
+        android:text="@string/btnStay"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/cardD5"
+        app:srcCompat="@drawable/card_container" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

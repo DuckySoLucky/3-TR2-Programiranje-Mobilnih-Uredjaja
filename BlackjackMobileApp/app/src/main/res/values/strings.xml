@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">BlackjackGameApp</string>
+    <string name="nameHint">Guest</string>
+    <string-array name="noOfDecksSpinner">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string name="remainingAmount">1000</string>
+    <string name="betAmount">$0</string>
+
+
+    <string name="welcomeMessage">Dobrodošli u BlakcJack</string>
+    <string name="nameMessage">Username</string>
+    <string name="noOfDecksMessage">Broj deckova</string>
+    <string name="btnStart">START</string>
+
+
+    <string name="selectMessage">Odaberite kolicinu novaca</string>
+    <string name="remainingAmountMessage">Stanje: </string>
+    <string name="btnBet5">€5</string>
+    <string name="btnBet10">€10</string>
+    <string name="btnBet20">€20</string>
+    <string name="btnBet50">€50</string>
+    <string name="btnBetAll">ALL IN</string>
+    <string name="btnSubmitBet">START</string>
+    <string name="btnBack">RESTART</string>
+
+    <string name="gameOver">GAME OVER</string>
+    <string name="gameOverMessage">Izgubili ste sve novce</string>
+    <string name="gameOverImageDesc">Bankrupt</string>
+    <string name="btnGameOverAgain">Play Again</string>
+
+    <string name="dealerName">Dealer</string>
+    <string name="dealerCount">0</string>
+    <string name="player">Player</string>
+    <string name="playerCount">0</string>
+    <string name="playerBetMessage">Bet: $</string>
+    <string name="playerBet">0</string>
+    <string name="btnHit">HIT</string>
+    <string name="btnStay">STAY</string>
+    <string name="cardsLeftMessage">Karte</string>
+    <string name="cardsLeft">0</string>
+
+    <string name="cardP1">Player Card 1</string>
+    <string name="cardP2">Player Card 2</string>
+    <string name="cardP3">Player Card 3</string>
+    <string name="cardP4">Player Card 4</string>
+    <string name="cardP5">Player Card 5</string>
+    <string name="cardD1">Dealer Card 1</string>
+    <string name="cardD2">Dealer Card 2</string>
+    <string name="cardD3">Dealer Card 3</string>
+    <string name="cardD4">Dealer Card 4</string>
+    <string name="cardD5">Dealer Card 5</string>
+
+    <string name="winTitle">Pobjeda!</string>
+    <string name="loseTitle">Gubitak!</string>
+    <string name="drawTitle">Zastoj!</string>
+    <string name="winAmount">0</string>
+    <string name="loseAmount">0</string>
+    <string name="postAmount">0</string>
+    <string name="btnNewGame">Nastavi</string>
+
+</resources>
